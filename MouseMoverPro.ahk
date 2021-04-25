@@ -23,6 +23,7 @@ Gui, Tab, 3
 Gui, Add, Button, default xm, Hide
 Gui, Add, StatusBar,Color,Red Bar's starting text.
 SB_SetText("Mouse movement " . MouseMovement . " Space pressing " SpacePressing)
+Menu, Tray,  Icon, cursor.ico
 
 Gui, Show
 return
@@ -87,15 +88,18 @@ else if (time = timeElapse)
     }
 }
 
-p:: settimer,startTimer,% (a:=!a) ? "off" : "on"
+~p:: settimer,startTimer,% (a:=!a) ? "off" : "on"
 
-x::
+~x::
 {
-	Progress, Off
-	settimer,startTimer,off
-	MouseMovement:="off"
-	time := 0
-	SB_SetText("Mouse movement " . MouseMovement . " Space pressing "  SpacePressing )
+	if(MouseMovement=="on")
+	{
+		Progress, Off
+		settimer,startTimer,off
+		MouseMovement:="off"
+		time := 0
+		SB_SetText("Mouse movement " . MouseMovement . " Space pressing "  SpacePressing )
+	}
 }
 
 ButtonStartEndlessPressOfaSpaceKey:
