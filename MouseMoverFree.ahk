@@ -15,6 +15,8 @@ Gui, Add, StatusBar,Color,Red Bar's starting text.
 SB_SetText("Mouse movement " . MouseMovement " © HackMaster.shop")
 Menu, Tray,  Icon, cursor.ico , 1 ,1 
 Gui, Tab, 2
+Gui, Add, Picture, w230 h100, C:\GitHub\BreakTime\MouseMoverPRO.png
+
 Gui, Add, Text, cBlue gProMouseMover, Get Mouse Mover PRO
 
 Gui, Show
@@ -50,3 +52,12 @@ ProMouseMover:
 	return
 }
 
+ButtonHide:
+{
+	Gui, Hide
+	return
+}
+
+GuiClose:
+GuiEscape:
+ExitApp
