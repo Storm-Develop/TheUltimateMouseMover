@@ -15,7 +15,7 @@ Don't worry anymore about your computer logging off or status changing. Stay alw
 
 ### [Buy me a coffee](https://www.buymeacoffee.com/hackmaster/e/29669?mc_cid=0e0bd81667&mc_eid=4e6ef24dce)
 
-[MouserMoverPRO version](https://github.com/Storm-Develop/BreakTime/blob/main/MouseMoverPro.zip)
+[MouserMoverPRO version]https://github.com/Storm-Develop/BreakTime/releases/tag/MouseMover)
 
 [MouserMoverFREE version](https://github.com/Storm-Develop/BreakTime/blob/main/MouseMoverFree.zip)
 
