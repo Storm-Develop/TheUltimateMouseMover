@@ -13,7 +13,7 @@ So I decided to create software to simulate real mouse movements. Today I am hap
 
 Don't worry anymore about your computer logging off or status changing. Stay always Online! "
 
-### [Buy me a coffee](https://www.buymeacoffee.com/hackmaster/e/29669?mc_cid=0e0bd81667&mc_eid=4e6ef24dce)
+### [Buy me a coffee](https://www.buymeacoffee.com/hackmaster/e/29669?mc_cid=0e0bd81667&mc_eid=4e6ef24dce) :coffee:
 
 [MouserMoverPRO version](https://github.com/Storm-Develop/BreakTime/releases/tag/MouseMover)
 
